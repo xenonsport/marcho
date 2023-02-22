@@ -19,19 +19,19 @@
   }
   &__list-link{
     color: $title;
-    padding-bottom: 4px;
+    padding: 0 2px 4px;
     transition: all .3s ease;
     @extend %roboto-400;
     &:hover{
       color: $accent;
       border-bottom: 1px solid $accent;
-      @extend %roboto-500;
+      @extend %roboto-700;
     }
   }
   &__list-link--active{
     color: $accent;
     border-bottom: 1px solid $accent;
-    @extend %roboto-500;
+    @extend %roboto-700;
   }
 }
 
