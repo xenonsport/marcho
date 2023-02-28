@@ -152,6 +152,18 @@
   }
 }
 
+.top{
+  &__container{
+    max-width: 1700px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 120px 0 130px;
+    text-align: center;
+  }
+}
+
 .top-slider{
   background-color: $bg;
   background-image: url('../images/decor/top-slider-bg.jpg');
@@ -709,6 +721,56 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+  }
+}
+
+.modal{
+  max-width: 570px;
+  margin: 0 auto 115px;
+  padding-top: 100px;
+  &__links{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &__link{
+    text-transform: uppercase;
+    color: #909090;
+    @extend %roboto-400;
+    margin: 0 30px;
+  }
+  &__link--active{
+    color: $accent;
+    @extend %roboto-700;
+  }
+  &__label{
+    display: block;
+    margin-bottom: 30px;
+  }
+  &__input{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: $bg;
+    margin-top: 6px;
+    height: 60px;
+    padding: 0 15px;
+  }
+  &__btn{
+    display: block;
+    background-color: $title;
+    color: #fff;
+    text-transform: uppercase;
+    @extend %roboto-400;
+    letter-spacing: 3.2px;
+    padding: 14px 0;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+  }
+  &__error{
+    display: inline-block;
+    margin-top: 20px;
+    color: $accent;
   }
 }
 
