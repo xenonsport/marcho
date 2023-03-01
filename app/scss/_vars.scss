@@ -35,4 +35,13 @@ $bg:#f6f6f6;
   @extend %roboto-400;
   padding: 12px 24px;
   box-shadow: 0px 10px 25px 0px rgba(254, 62, 87, 0.3);
+  cursor: pointer;
+}
+
+%checkbox-hidden{
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
 }
