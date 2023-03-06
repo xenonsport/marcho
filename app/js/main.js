@@ -25,6 +25,10 @@ $(function () {
     fade: true
   });
 
+  $('.blogpage__media-slider').slick({
+    fade: true
+  });
+
   $('.shop-content__filter-btn').on('click', function () {
     $('.shop-content__filter-btn').removeClass('shop-content__filter-btn--active');
     $(this).addClass('shop-content__filter-btn--active');
