@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sorry! 404 Error</title>
+    <title>Contactst</title>
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <header class="header header--404-page">
+    <header class="header">
       <div class="container">
         <div class="header__inner">
           <a class="logo" href="#">
@@ -50,7 +50,7 @@
                 src="images/icons/num_2.png"
                 alt="user btn"
             /></a>
-            <a class="user-nav__link user-nav__link--404-page" href="#">
+            <a class="user-nav__link" href="#">
               <img
                 class="usernav__link-img"
                 src="images/icons/num_3.png"
@@ -58,7 +58,7 @@
               />
               <span class="user-nav__num">3</span>
             </a>
-            <a class="user-nav__link user-nav__link--404-page" href="#">
+            <a class="user-nav__link" href="#">
               <img
                 class="usernav__link-img"
                 src="images/icons/num_4.png"
@@ -72,19 +72,133 @@
     </header>
 
     <main class="main">
-      <section class="page-404">
-        <div class="container">
-          <div class="page-404__inner">
-            <div class="page-404__content">
-              <h2 class="page-404__title">OPPS! Page Not Found!!</h2>
-              <p class="page-404__text">
-                We,re sorry but we can’t seem to find the pages you request.
-                This might be because you have typed the web address not find
-                incorrectly.
-              </p>
-              <a class="page-404__link" href="#"> BACK TO HOME </a>
+      <section class="top">
+        <div
+          class="top__container"
+          style="background-image: url('images/top-bg.jpg')"
+        >
+          <div class="container">
+            <h2 class="top__title title">CONTACT US</h2>
+            <div class="breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="#"> Home </a>
+                </li>
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="#">Contact</a>
+                </li>
+              </ul>
             </div>
-            <img class="page-404__img" src="images/404.png" alt="Error image" />
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts__inner">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.1583090278!2d-74.1197637963364!3d40.697663748629545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2sde!4v1678380536839!5m2!1sru!2sde"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <div class="contacts__content">
+              <div class="contacts__contact">
+                <h3 class="contacts__contact-title">
+                  Feel Free Don’t Hesitate To Contact With Us
+                </h3>
+                <p class="contacts__contact-text">
+                  Lorem ipsum dolor sit amet, consectetur adingn elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo
+                  maecnaacnrao cumsan lacus vel facilisis.
+                </p>
+                <div class="contacts__link-box">
+                  <a class="contacts__link-img" href="tel:+01234567896">
+                    <img
+                      src="images/icons/telephone.svg"
+                      alt="telephone icon"
+                    />
+                  </a>
+                  <ul class="contacts__link-list">
+                    <a class="contacts__list-item" href="tel:+01234567896"
+                      >+0-123-456-7896</a
+                    >
+                    <a class="contacts__list-item" href="tel:+01234567896"
+                      >+0-123-456-7896</a
+                    >
+                  </ul>
+                </div>
+                <div class="contacts__link-box">
+                  <a
+                    class="contacts__link-img"
+                    target="_blank"
+                    href="https://goo.gl/maps/MAqGQ7M2WzUtt7DQ6"
+                  >
+                    <img src="images/icons/location.svg" alt="telephone icon" />
+                  </a>
+                  <ul class="contacts__link-list">
+                    <a
+                      class="contacts__list-item"
+                      href="https://goo.gl/maps/MAqGQ7M2WzUtt7DQ6"
+                      target="_blank"
+                      >Ranlon Market 789 Road, Market Street, Newyork</a
+                    >
+                  </ul>
+                </div>
+                <div class="contacts__link-box">
+                  <a
+                    class="contacts__link-img"
+                    href="mailto:yourmailaddress@gmail.com"
+                  >
+                    <img src="images/icons/post.svg" alt="telephone icon" />
+                  </a>
+                  <ul class="contacts__link-list">
+                    <a
+                      class="contacts__list-item"
+                      href="mailto:yourmailaddress@gmail.com"
+                      >yourmailaddress@gmail.com</a
+                    >
+                    <a
+                      class="contacts__list-item"
+                      href="mailto:companymail@gmail.com"
+                      >companymail@gmail.com</a
+                    >
+                  </ul>
+                </div>
+              </div>
+              <form class="contacts__form">
+                <h4 class="contacts__form-title">Contact Form</h4>
+                <div class="contacts__input-top">
+                  <input
+                    class="contacts__top-input"
+                    type="text"
+                    placeholder="Your Name"
+                  />
+                  <input
+                    class="contacts__top-input"
+                    type="text"
+                    placeholder="Your E-mail Address"
+                  />
+                </div>
+                <input
+                  class="contacts__form-input"
+                  type="text"
+                  placeholder="Subject"
+                />
+                <textarea
+                  class="contacts__form-textarea"
+                  placeholder="Message here"
+                ></textarea>
+                <button class="contacts__form-btn" type="submit">
+                  SEND MESSAGE
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
