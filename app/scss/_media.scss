@@ -1,0 +1,36 @@
+@media (max-width: 992px) {
+  .header{
+    height: 70px;
+    padding: 24px 0;
+  }
+  .menu{
+    &__list{
+      gap: 15px;
+    }
+  }
+  .user-nav{
+    gap: 15px;
+  }
+  .logo {
+    height: 22px;
+    width: 130px;
+  }
+}
+
+@media (max-width: 768px){
+  .menu{
+    display: none;
+  }
+  .menu.menu--active{
+    display: block;
+  }
+  .user-nav{
+    display: none;
+  }
+  .user-nav.menu--active{
+    display: inline-flex;
+  }
+  .menu__list-btn{
+    display: block;
+  }
+}
