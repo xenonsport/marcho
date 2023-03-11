@@ -1,5 +1,17 @@
 $(function () {
 
+  $('.footer-top__item--user-slide').on('click', function () {
+      if(window.matchMedia('(max-width: 992px)').matches) {
+        $('.footer-top__list--user-slide').slideToggle('fast');
+      }
+  });
+
+  $('.footer-top__item--links-slide').on('click', function () {
+      if(window.matchMedia('(max-width: 992px)').matches) {
+        $('.footer-top__list--links-slide').slideToggle('fast');
+      }
+  });
+
   $('.menu__list-btn').on('click', function () {
     $('.menu, .user-nav, .menu__list-btn, .menu__list-btn-item').toggleClass('menu--active');
   });
