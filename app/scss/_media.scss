@@ -23,6 +23,30 @@
   .footer-top__phone {
     margin-bottom: 7px;
   }
+  .page-404 {
+    padding: 40px 0;
+  }
+  .top-slider{
+    padding: 0 0 37px;
+  }
+  .top-slider__content {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top-slider__title{
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 15px;
+  }
+  .top-slider__text{
+    margin-bottom: 30px;
+  }
+  .top-slider__link{
+    width: max-content;
+    padding: 10px 20px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -79,6 +103,34 @@
   .footer-top__item-form {
     order: 4;
   }
+  .page-404__title{
+    font-size: 32px;
+    margin-bottom: 26px;
+  }
+  .page-404__img{
+    max-width: 45%;
+  }
+  .page-404__link {
+    display: inline-block;
+    padding: 10px 16px;
+  }
+  .page-404__text{
+    margin-bottom: 30px;
+  }
+  .top-slider__content{
+    padding-left: 15%;
+  }
+  .top-slider__title {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .top-slider .slick-dots{
+    margin-top: -45px;
+  }
+  .top-slider .slick-dots li button{
+    height: 20px;
+    width: 20px;
+  }
 }
 
 @media (max-width: 768px){
@@ -115,13 +167,48 @@
     margin-bottom: 7px;
     text-align: center;
   }
+  .page-404__inner {
+    flex-direction: column-reverse;
+  }
+  .page-404__content {
+    flex-direction: column;
+    max-width: 570px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .top-slider__img {
+    display: none;
+  }
+  .top-slider__content {
+    height: 470px;
+    align-items: center;
+    gap: 20px;
+    padding-left: 0;
+  }
+  .top-slider__title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 0;
+  }
+  .top-slider__text {
+    text-align: center;
+    max-width: 70%;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
 }
 
-@media (max-width: 440px){
+@media (max-width: 475px){
   .footer-top__form-input{
-    padding: 12px 8px 12px 8px;
+    padding: 9px 8px 13px 8px;
     &::placeholder{
       font-size: 14px;
     }
+  }
+  .page-404__title{
+    text-align: center;
   }
 }
