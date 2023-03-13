@@ -20,9 +20,29 @@ $bg:#f6f6f6;
 
 %roboto-500 {
   font-family: 'Roboto-Medium', sans-serif;
+  font-weight: 500;
 }
 
 %roboto-700 {
   font-family: 'Roboto-Bold', sans-serif;
   font-weight: 700;
+}
+
+%btn{
+  background-color: $accent;
+  text-transform: uppercase;
+  color: #fff;
+  @extend %roboto-400;
+  padding: 12px 24px;
+  box-shadow: 0px 10px 25px 0px rgba(254, 62, 87, 0.3);
+  cursor: pointer;
+}
+
+%checkbox-hidden,
+%radio-hidden{
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
 }
