@@ -1,5 +1,9 @@
 $(function () {
 
+  $('.shop__filters-btn').on('click', function () {
+    $('.shop__filters').toggleClass('filters--active');
+  });
+
   $('.footer-top__item--user-slide').on('click', function () {
       if(window.matchMedia('(max-width: 992px)').matches) {
         $('.footer-top__list--user-slide').slideToggle('fast');
